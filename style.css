@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    line-height: 1.5;
+}
+
+h1{
+    font-size: 50px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+fieldset{
+    height: 250px;
+    width: 50%;
+}
+
+legend, button, input {
+    margin: 20px;
+}
+
+.display{
+    margin-top: 30px;
+}
+
+.error_txt {
+    font-size: 30px;
+    color: red;
+}
