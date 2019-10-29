@@ -11,9 +11,17 @@ body{
 
 h1{
     font-size: 50px;
+    margin-top: 50px;
 }
 
 main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
     display: flex;
     justify-content: center;
 }
@@ -21,6 +29,10 @@ main{
 fieldset{
     height: 250px;
     width: 50%;
+}
+
+.userHandle_input{
+    text-align: center;
 }
 
 legend, button, input {
@@ -34,4 +46,17 @@ legend, button, input {
 .error_txt {
     font-size: 30px;
     color: red;
+}
+
+section{
+    margin-top: 50px;
+}
+
+.repo_list{
+    text-align: left;
+}
+
+.repo_list > li {
+    font-size: 25px;
+    line-height: 2;
 }
